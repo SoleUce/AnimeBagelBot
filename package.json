@@ -4,8 +4,10 @@
   "description": "posts anime bagel girls",
   "main": "bot.js",
   "scripts": {
-    "starts": {"node bot.js"}
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
     
+      
   },
   "keywords": [
     "Anime",
