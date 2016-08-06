@@ -13,7 +13,7 @@ tweetIt();
 setInterval(tweetIt, 1000 * 86400)
 
 tweetPic();
-setInterval(tweetPic, 1000 * 20)
+setInterval(tweetPic, 1000 * 86400)
 
 function tweetIt() {
 
