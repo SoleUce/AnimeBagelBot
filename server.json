@@ -1,9 +1,0 @@
-var port = Number(process.env.PORT || 3000);
-var express = require('express');
-var app = express();
-
-app.use(express.static('bot.js'));    
-app.get('/', function(req, res){
-});
-
-app.listen(port);
