@@ -16,7 +16,6 @@
   "author": "SoleUce",
   "license": "ISC",
   "dependencies": {
-    "devDependencies"
-    "twitter": "^1.4.0"
+  "twitter": "^1.4.0"
   }
 }
