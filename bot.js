@@ -27,7 +27,7 @@ var r = Math.floor(Math.random()*4)
 //
 
 function tweetPic() {
-var r = Math.floor(Math.random()*9) + 1;
+var r = Math.floor(Math.random()*20) + 1;
 var fileName ='Pics/' + r +'.png'
 var fs = require('fs')
 var b64content = fs.readFileSync(fileName, { encoding: 'base64' })
