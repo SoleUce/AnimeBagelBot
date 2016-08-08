@@ -15,9 +15,28 @@ setInterval(tweetIt, 1000 * 86400)
 tweetPic();
 setInterval(tweetPic, 1000 * 86400)
 
-function tweetIt() {
+//Follow Back
+var stream = T.stream('user');
 
-var r = Math.floor(Math.random()*4)
+//When someone Follows
+stream.on('tweet', tweetEvent);
+
+function tweetEvent(eventMsg) {
+	var fs = require('fs');
+	var json = JSON.stringify(eventMsg,null,2);
+	fs.writeFile("tweet.json", json);
+
+}
+
+function tweetIt(txt) {
+
+	var tweet = {
+		status: txt
+	}
+
+
+
+}
 
 //Post Random Number
 }
