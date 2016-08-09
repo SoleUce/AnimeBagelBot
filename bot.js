@@ -19,7 +19,7 @@ setInterval(tweetFact, 1000 * 86400 * 2)
 //
 function tweetFact() {
 
-var P = floor.Math(Math.random()*13)+1
+var P = Math.floor(Math.random()*13)+1
 
 if (P == 1) {
 	var rFact = "Bagel history dates back to 1783, according to popular belief. There was this Polish fellow that bet up some turks with his loaf of bread. The country of Austria celebrated by creating a round loaf of bread, as circles where his favourite shape."
