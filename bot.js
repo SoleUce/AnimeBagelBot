@@ -74,7 +74,7 @@ If (P ==13) {
 };
 
 tweetIt(rFact);
-}
+};
 
 //
 //Search For Bagels
