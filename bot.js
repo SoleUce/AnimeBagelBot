@@ -66,7 +66,7 @@ If (P == 11) {
 };
 
 If (P== 12) { 
-         rFact "Did you know Bagels are eaten?
+         rFact "Did you know Bagels are eaten?"
 };
 
 If (P ==13) {
