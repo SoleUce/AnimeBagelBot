@@ -6,36 +6,83 @@ var config = require('./config');
 
 var T = new Twit(config);
 
-var M = Math.floor(Math.random()*4) + 1
-
-if (M = 1) {
-	var rMessage = "Want to here a bagel fact? Well so do I."
-}
-
-if (M = 2) {
-	var rMessage = "There's been colder days"
-}
-
-if (M = 3) {
-	var rMessage = "When ever i'm stuck I think want would Jhon Snow do? and I think he would write some pretty good code"
-}
-
-if (M = 4) {
-	var rMessage = "You like girls, what are you gay."
-}
 
 tweetPic();
 setInterval(tweetPic, 1000 * 86400)
 
 
 
+//
+//Search For Bagels
+//
+
+var params = {
+	q: 'bagel since: 2015-12-12',
+	count:50 
+};
+
+T.get('search/tweets', params, gotData)
+
+function gotData(err, data, response) {
+	var tweets = data.statuses;
+	for (var i = 0; i < tweets.length; i++) {
+	console.log(tweets[i].text)
+	}
+}
 //Follow Back
 var stream = T.stream('user');
 
 //When someone Follows
+stream.on('follow', followed);
+
+var M = Math.floor(Math.random()*4)+1
+
+if (M == 1) {
+	rThank = "The Bagel Gods thank you "
+};
+
+if (M == 2) {
+	rThank = "It's not like I want you to follow me or anything b-b-bagel but thanks anyway "
+};
+
+if (M == 3) {
+	rThank = "Good Choice "
+};
+
+function followed(eventMsg) {
+	var name = eventMsg.source.name;
+	var screenName = eventMsg.source.screen_name;
+	tweetIt('@' + screenName + ' ' + rThank + name)
+}
+
+//When someone tweets
 stream.on('tweet', tweetEvent);
 
 function tweetEvent(eventMsg) {
+//
+//Random Messages
+//
+var M = Math.floor(Math.random()*4) + 1
+
+if (M == 4) {
+	var rMessage = "Want to here a bagel fact? Well so do I."
+};
+
+if (M == 2) {
+	var rMessage = "There's been colder days."
+};
+
+if (M == 3) {
+	var rMessage = "When ever i'm stuck I think want would Ned Stark do? and I think he would write some pretty good code."
+};
+
+if (M == 1) {
+	var rMessage = "You like girls, what are you gay?"
+};
+
+console.log(rMessage)
+
+
 	//var fs = require('fs');
 	//var json = JSON.stringify(eventMsg,null,2);
 	//fs.writeFile("tweet.json", json);
@@ -73,8 +120,8 @@ function tweetIt(txt) {
 //
 
 function tweetPic() {
-	var r = Math.floor(Math.random()*20) + 1;
-	var fileName ='Pics/' + r +'.png'
+	var r = Math.floor(Math.random()*58) + 1;
+	var fileName ='Pics/' + r + '.png'
 	var fs = require('fs')
 	var b64content = fs.readFileSync(fileName, { encoding: 'base64' }) 
 
