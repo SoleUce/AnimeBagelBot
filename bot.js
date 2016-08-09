@@ -7,11 +7,48 @@ var config = require('./config');
 var T = new Twit(config);
 
 
+
 tweetPic();
 setInterval(tweetPic, 1000 * 86400)
 
 
+//
+//Tweeet Bagel Facts
+//
 
+var P = floor.Math(Math.random()*5)+1
+
+if (P == 1) {
+	rFact = "Bagel history dates back to 1783, according to popular belief. There was this Polish fellow that bet up some turks with his loaf of bread. The country of Austria celebrated by creating a round loaf of bread, as circles where his favourite shape."
+};
+
+if (P == 2) {
+	rFact = "Bagels are the only bread that are boiled before baked. Once the bagel dough is shaped into a circle, they are dipped in boiling water for 3 to 5 minutes on each side. After that, they are drained and baked for about 10 minutes."
+};
+
+if (P == 3) {
+	rFact = "The whole in the middle of the bagel Isnt just for looks, the men of austria would put theire fingers in the whole and wear them as jewlrey to show thiere class."
+};
+
+if (P == 4) {
+	rFact = "To brain dead to eat a bagel and drink your coffe, well some guy called Robert Bohannon puts caffine pills into his bagel."
+};
+
+if (P == 5) {
+	rFact = "Every one seems to like plain bagels, for some reason pepole like putting cream chese and salmon in bagels like me."
+};
+
+if (P == 6) {
+	rFact = "National bagel day is an actual thing, its on Febuary the 9th"
+};
+
+if (P == 7) {
+	rFact "Americans enjoy bagels, In 2015, Thomas' Bagels alone sold 162 million bagels to U.S. consumers."
+};
+
+if (P == 8) {
+	rFact ""
+}
 //
 //Search For Bagels
 //
