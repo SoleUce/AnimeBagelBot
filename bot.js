@@ -6,6 +6,24 @@ var config = require('./config');
 
 var T = new Twit(config);
 
+var M = Math.floor(Math.random()*4) + 1
+
+if (M = 1) {
+	var rMessage = "Want to here a bagel fact? Well so do I."
+}
+
+if (M = 2) {
+	var rMessage = "There's been colder days"
+}
+
+if (M = 3) {
+	var rMessage = "When ever i'm stuck I think want would Jhon Snow do? and I think he would write some pretty good code"
+}
+
+if (M = 4) {
+	var rMessage = "You like girls, what are you gay."
+}
+
 tweetPic();
 setInterval(tweetPic, 1000 * 86400)
 
@@ -22,6 +40,7 @@ function tweetEvent(eventMsg) {
 	//var json = JSON.stringify(eventMsg,null,2);
 	//fs.writeFile("tweet.json", json);
 
+
 	var replyto = eventMsg.in_reply_to_screen_name;
 	var	event = eventMsg.text;
 	var from = eventMsg.user.screen_name;
@@ -29,7 +48,7 @@ function tweetEvent(eventMsg) {
 	console.log(replyto + ' ' + from);
 
 	if (replyto == 'AnimeBagelBot') {
-		var newtweet = "Thank You " + '@' + from + " have a Bagel"
+		var newtweet = "Thank You " + '@' + from + " " + rMessage
 		tweetIt(newtweet);
 	}
 
