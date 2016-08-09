@@ -11,10 +11,13 @@ var T = new Twit(config);
 tweetPic();
 setInterval(tweetPic, 1000 * 86400)
 
+tweetFact();
+setInterval(tweetFact, 1000 * 86400 * 2)
 
 //
 //Tweeet Bagel Facts
 //
+function tweetFact() {
 
 var P = floor.Math(Math.random()*5)+1
 
@@ -31,7 +34,7 @@ if (P == 3) {
 };
 
 if (P == 4) {
-	rFact = "To brain dead to eat a bagel and drink your coffe, well some guy called Robert Bohannon puts caffine pills into his bagel."
+	rFact = "Too brain dead to eat a bagel and drink your coffe, well some guy called Robert Bohannon puts caffine pills into his bagel."
 };
 
 if (P == 5) {
@@ -47,8 +50,32 @@ if (P == 7) {
 };
 
 if (P == 8) {
-	rFact ""
+	rFact "Bagels are alright -Kieran"
+};
+
+If (P == 9) {
+        rFact "Bagels are circular"
+};
+
+If (P == 10) {
+        rFact "The nutritional value of a bagel is 5"
+};
+
+If (P == 11) {
+         rFact "Here's a little known fact, there is a hole in the middle"
+};
+
+If (P== 12) { 
+         rFact "Did you know Bagels are eaten?
+};
+
+If (P ==13) {
+         rFact "A bagel is born every second"
+};
+
+tweetIt(rFact);
 }
+
 //
 //Search For Bagels
 //
