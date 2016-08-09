@@ -53,23 +53,23 @@ if (P == 8) {
 	var rFact = "Bagels are alright -Kieran"
 };
 
-If (P == 9) {
+if (P == 9) {
         var rFact = "Bagels are circular"
 };
 
-If (P == 10) {
+if (P == 10) {
        var rFact = "The nutritional value of a bagel is 5"
 };
 
-If (P == 11) {
+if (P == 11) {
         var = rFact "Here's a little known fact, there is a hole in the middle"
 };
 
-If (P == 12) { 
+if (P == 12) { 
         var = rFact "Did you know Bagels are eaten?"
 };
 
-If (P == 13) {
+if (P == 13) {
         var = rFact "A bagel is born every second"
 };
 
