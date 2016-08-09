@@ -22,55 +22,55 @@ function tweetFact() {
 var P = floor.Math(Math.random()*13)+1
 
 if (P == 1) {
-	rFact = "Bagel history dates back to 1783, according to popular belief. There was this Polish fellow that bet up some turks with his loaf of bread. The country of Austria celebrated by creating a round loaf of bread, as circles where his favourite shape."
+	var rFact = "Bagel history dates back to 1783, according to popular belief. There was this Polish fellow that bet up some turks with his loaf of bread. The country of Austria celebrated by creating a round loaf of bread, as circles where his favourite shape."
 };
 
 if (P == 2) {
-	rFact = "Bagels are the only bread that are boiled before baked. Once the bagel dough is shaped into a circle, they are dipped in boiling water for 3 to 5 minutes on each side. After that, they are drained and baked for about 10 minutes."
+	var rFact = "Bagels are the only bread that are boiled before baked. Once the bagel dough is shaped into a circle, they are dipped in boiling water for 3 to 5 minutes on each side. After that, they are drained and baked for about 10 minutes."
 };
 
 if (P == 3) {
-	rFact = "The whole in the middle of the bagel Isnt just for looks, the men of austria would put theire fingers in the whole and wear them as jewlrey to show thiere class."
+	var rFact = "The whole in the middle of the bagel Isnt just for looks, the men of austria would put theire fingers in the whole and wear them as jewlrey to show thiere class."
 };
 
 if (P == 4) {
-	rFact = "Too brain dead to eat a bagel and drink your coffe, well some guy called Robert Bohannon puts caffine pills into his bagel."
+	 var rFact = "Too brain dead to eat a bagel and drink your coffe, well some guy called Robert Bohannon puts caffine pills into his bagel."
 };
 
 if (P == 5) {
-	rFact = "Every one seems to like plain bagels, for some reason pepole like putting cream chese and salmon in bagels like me."
+	var rFact = "Every one seems to like plain bagels, for some reason pepole like putting cream chese and salmon in bagels like me."
 };
 
 if (P == 6) {
-	rFact = "National bagel day is an actual thing, its on Febuary the 9th"
+	var rFact = "National bagel day is an actual thing, its on Febuary the 9th"
 };
 
 if (P == 7) {
-	rFact "Americans enjoy bagels, In 2015, Thomas' Bagels alone sold 162 million bagels to U.S. consumers."
+	var rFact "Americans enjoy bagels, In 2015, Thomas' Bagels alone sold 162 million bagels to U.S. consumers."
 };
 
 if (P == 8) {
-	rFact "Bagels are alright -Kieran"
+	var rFact "Bagels are alright -Kieran"
 };
 
 If (P == 9) {
-        rFact "Bagels are circular"
+        var rFact "Bagels are circular"
 };
 
 If (P == 10) {
-        rFact "The nutritional value of a bagel is 5"
+       var rFact "The nutritional value of a bagel is 5"
 };
 
 If (P == 11) {
-         rFact "Here's a little known fact, there is a hole in the middle"
+        var rFact "Here's a little known fact, there is a hole in the middle"
 };
 
 If (P == 12) { 
-         rFact "Did you know Bagels are eaten?"
+        var rFact "Did you know Bagels are eaten?"
 };
 
 If (P == 13) {
-         rFact "A bagel is born every second"
+        var rFact "A bagel is born every second"
 };
 
 tweetIt(rFact);
