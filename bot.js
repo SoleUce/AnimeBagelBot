@@ -46,31 +46,31 @@ if (P == 6) {
 };
 
 if (P == 7) {
-	var rFact "Americans enjoy bagels, In 2015, Thomas' Bagels alone sold 162 million bagels to U.S. consumers."
+	var rFact = "Americans enjoy bagels, In 2015, Thomas' Bagels alone sold 162 million bagels to U.S. consumers."
 };
 
 if (P == 8) {
-	var rFact "Bagels are alright -Kieran"
+	var rFact = "Bagels are alright -Kieran"
 };
 
 If (P == 9) {
-        var rFact "Bagels are circular"
+        var rFact = "Bagels are circular"
 };
 
 If (P == 10) {
-       var rFact "The nutritional value of a bagel is 5"
+       var rFact = "The nutritional value of a bagel is 5"
 };
 
 If (P == 11) {
-        var rFact "Here's a little known fact, there is a hole in the middle"
+        var = rFact "Here's a little known fact, there is a hole in the middle"
 };
 
 If (P == 12) { 
-        var rFact "Did you know Bagels are eaten?"
+        var = rFact "Did you know Bagels are eaten?"
 };
 
 If (P == 13) {
-        var rFact "A bagel is born every second"
+        var = rFact "A bagel is born every second"
 };
 
 tweetIt(rFact);
