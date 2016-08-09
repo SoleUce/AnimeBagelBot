@@ -65,11 +65,11 @@ If (P == 11) {
          rFact "Here's a little known fact, there is a hole in the middle"
 };
 
-If (P== 12) { 
+If (P == 12) { 
          rFact "Did you know Bagels are eaten?"
 };
 
-If (P ==13) {
+If (P == 13) {
          rFact "A bagel is born every second"
 };
 
