@@ -62,15 +62,15 @@ if (P == 10) {
 };
 
 if (P == 11) {
-        var = rFact "Here's a little known fact, there is a hole in the middle"
+        var rFact = "Here's a little known fact, there is a hole in the middle"
 };
 
 if (P == 12) { 
-        var = rFact "Did you know Bagels are eaten?"
+        var rFact = "Did you know Bagels are eaten?"
 };
 
 if (P == 13) {
-        var = rFact "A bagel is born every second"
+        var rFact = "A bagel is born every second"
 };
 
 tweetIt(rFact);
