@@ -10,10 +10,11 @@ var T = new Twit(config);
 //
 //Manualy post a pic
 //
-function Manual(eventMsg);
+function Manual(eventMsg) {
 var text = evenMsg.source.text;
 if (text == @AnimeBagelBot post) {
 	tweetPic();
+	}
 };
 
 tweetPic();
