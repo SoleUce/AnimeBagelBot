@@ -7,6 +7,9 @@ var config = require('./config');
 var T = new Twit(config);
 
 
+if (text == @AnimeBagelBot post) {
+	tweetPic();
+};
 
 tweetPic();
 setInterval(tweetPic, 1000 * 86400)
