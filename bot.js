@@ -7,6 +7,11 @@ var config = require('./config');
 var T = new Twit(config);
 
 
+//
+//Manualy post a pic
+//
+
+var text = source.text;
 if (text == @AnimeBagelBot post) {
 	tweetPic();
 };
