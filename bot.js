@@ -12,7 +12,7 @@ var T = new Twit(config);
 //
 function Manual(eventMsg) {
 var text = evenMsg.source.text;
-if (text == "@AnimeBagelBot post") {
+if (text == '@AnimeBagelBot post') {
 	tweetPic();
 	}
 };
