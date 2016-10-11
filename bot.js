@@ -23,6 +23,17 @@ setInterval(tweetPic, 1000 * 86400)
 tweetFact();
 setInterval(tweetFact, 1000 * 86400 * 2)
 
+tweetZero();
+setInterval(tweetZero, 1000 * 86400)
+
+
+//
+//Tweet I love Re;Zero
+//
+
+function tweetzero(){
+	tweetIt("I Love Re;Zero");
+}
 //
 //Tweeet Bagel Facts
 //
