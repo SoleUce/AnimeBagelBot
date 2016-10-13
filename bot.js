@@ -27,14 +27,8 @@ tweetZero();
 setInterval(tweetZero, 1000 * 86400)
 
 
-//
-//Tweet I love Re;Zero
-//
 
-function tweetZero() {
-	var re = "I Love Re;Zero"
-	tweetIt(re);
-};
+
 //
 //Tweeet Bagel Facts
 //
@@ -185,7 +179,14 @@ console.log(rMessage)
 	}
 
 }
+//
+//Tweet I love Re;Zero
+//
 
+function tweetZero() {
+	var re = "I Love Re;Zero"
+	tweetIt(re);
+}
 //
 //Tweet A message
 //
