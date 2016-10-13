@@ -23,8 +23,6 @@ setInterval(tweetPic, 1000 * 86400)
 tweetFact();
 setInterval(tweetFact, 1000 * 86400 * 2)
 
-tweetZero();
-setInterval(tweetZero, 1000 * 86400)
 
 
 
@@ -179,14 +177,7 @@ console.log(rMessage)
 	}
 
 }
-//
-//Tweet I love Re;Zero
-//
 
-function tweetZero() {
-	var re = "I Love Re;Zero"
-	tweetIt(re);
-}
 //
 //Tweet A message
 //
@@ -200,6 +191,12 @@ function tweetIt(txt) {
 	
 }
 
+//
+//Tweet REZERO 
+//
+
+tweetIt("I Love RE;Zero");
+console.log("I Love Re;Zero);
 
 //
 // post a pic
