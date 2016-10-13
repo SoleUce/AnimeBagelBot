@@ -31,8 +31,9 @@ setInterval(tweetZero, 1000 * 86400)
 //Tweet I love Re;Zero
 //
 
-function tweetZero(){
-	tweetIt("I Love Re;Zero");
+function tweetZero() {
+	var re = "I Love Re;Zero"
+	tweetIt(re);
 };
 //
 //Tweeet Bagel Facts
