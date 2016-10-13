@@ -31,7 +31,7 @@ setInterval(tweetZero, 1000 * 86400)
 //Tweet I love Re;Zero
 //
 
-function tweetzero(){
+function tweetZero(){
 	tweetIt("I Love Re;Zero");
 };
 //
