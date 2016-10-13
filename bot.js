@@ -32,7 +32,7 @@ setInterval(tweetZero, 1000 * 86400)
 //
 
 function tweetzero(){
-	tweetIt("I Love Re;Zero")
+	tweetIt("I Love Re;Zero");
 };
 //
 //Tweeet Bagel Facts
