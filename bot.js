@@ -1,5 +1,5 @@
 console.log("It works")
-console.log(re)
+
 var Twit = require('twit');
 
 var config = require('./config');
