@@ -23,10 +23,15 @@ setInterval(tweetPic, 1000 * 86400)
 tweetFact();
 setInterval(tweetFact, 1000 * 86400 * 2)
 
+tweetZero();
+setInterval(tweetZero, 1000 * 86400)
 
-
-
-
+//
+//RE zero
+//
+function tweetZero() {
+	tweetIt("I love Re;Zero")
+};
 //
 //Tweeet Bagel Facts
 //
@@ -191,19 +196,13 @@ function tweetIt(txt) {
 	
 }
 
-//
-//Tweet REZERO 
-//
-
-tweetIt("I Love RE;Zero");
-console.log("I Love Re;Zero);
 
 //
 // post a pic
 //
 
 function tweetPic() {
-	var r = Math.floor(Math.random()*58) + 1;
+	var r = Math.floor(Math.random()*59) + 1;
 	var fileName ='Pics/' + r + '.png'
 	var fs = require('fs')
 	var b64content = fs.readFileSync(fileName, { encoding: 'base64' }) 
