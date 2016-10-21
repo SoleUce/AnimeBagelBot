@@ -196,7 +196,17 @@ function tweetIt(txt) {
 	
 }
 
+//
+//Post a Rem Pic
+//
 
+
+function tweetPic() {
+	var rP = Math.floor(Math.random()*59) + 1;
+	var fileName ='remPics/' + rP + '.png'
+	var fs = require('fs')
+	var b64content = fs.readFileSync(fileName, { encoding: 'base64' }) 
+}
 //
 // post a pic
 //
