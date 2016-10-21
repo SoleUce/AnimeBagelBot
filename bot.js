@@ -26,6 +26,8 @@ setInterval(tweetFact, 1000 * 86400 * 2)
 tweetZero();
 setInterval(tweetZero, 1000 * 86400)
 
+tweetRemPic();
+setInterval(tweetRemPic, 1000 * 60)
 //
 //RE zero
 //
@@ -201,8 +203,8 @@ function tweetIt(txt) {
 //
 
 
-function tweetPic() {
-	var rP = Math.floor(Math.random()*59) + 1;
+function tweetRemPic() {
+	var rP = Math.floor(Math.random()*2) + 1;
 	var fileName ='remPics/' + rP + '.png'
 	var fs = require('fs')
 	var b64content = fs.readFileSync(fileName, { encoding: 'base64' }) 
